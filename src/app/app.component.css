@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    margin-top: -15px;
+}
+table thead tr th{
+    background-color: rgb(138, 217, 246);
+    color: rgb(85, 5, 131);
+}
+i{
+    cursor: pointer;
+    font-size: 18px;
+}
+.displayText{
+    background-color: lightgray;
+    color:white
+}

@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/ngx-toastr/toastr.css';
+.toast-container.toast-top-full-width .ngx-toastr, .toast-container.toast-bottom-full-width .ngx-toastr {
+    width: 100% !important;
+    }
+  
+  
+  
+  
+    .toast-container .ngx-toastr {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 6px;
+    padding: 30px 15px 15px 50px !important;
+    width: 300px;
+    border-radius: 0px !important;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    box-shadow: 0 0 12px #999999;
+    color: #000000 !important;
+    text-align: center !important;
+    }
+  
+  
+  
+    .toast-success {
+    background-color: #7CF3DE !important;
+    background-image: inherit !important;
+    }
+  
+  
+  
+    .toast-error {
+    background-color: #EE2C6C !important;
+    background-image: inherit !important;
+    }
+  
+  
+  
+    .toast-warning {
+    background-color: #F0AF2C !important;
+    background-image: inherit !important;
+    }
+  
+  
+  
+    .toast-info {
+    background-color: #4FC8F5 !important;
+    background-image: inherit !important;
+    }
